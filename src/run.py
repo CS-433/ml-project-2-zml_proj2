@@ -19,7 +19,7 @@ if __name__ == '__main__':
         raise ValueError("The model type argument can only be one of three options: Init, Meta, or Latent") 
 
     # ===== Load data ===== #
-    with open("data/embeddings_difference_meta.pickle", "rb") as file:
+    with open("../data/embeddings_difference_meta.pickle", "rb") as file:
         btm_matrix = pickle.load(file)
 
     # ===== Set model parameters ===== #
