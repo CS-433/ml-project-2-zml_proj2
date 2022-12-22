@@ -69,8 +69,6 @@ python run.py Latnet
 python fine-tunning.py [Init, Meta, Latnet] # depending on which model
 ```
 
-To run model, 
-
 
 ## Project Structure
 
