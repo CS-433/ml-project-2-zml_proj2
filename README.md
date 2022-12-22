@@ -1,5 +1,5 @@
 # ml-project-2-zml_proj2
-ml-project-2-zml_proj2 created by GitHub Classroom
+# Mining Effective Words For Climate Change Communication
 
 
 ## Team
@@ -18,6 +18,11 @@ Marko Lisicic: @mrfox99
 
 ## Guideline
 
+To get all the data needed to run the code, please contact Aswin Suresh(aswin.suresh@epfl.ch) for access. You can copy the entire data folder and put it the same level as src folder.
+
+
+
+To run model, 
 
 
 ## Code Structure
@@ -31,11 +36,9 @@ Marko Lisicic: @mrfox99
 ├── Exploratory.ipynb: Data exploratory analysis, where it contains plots and conclusions to support our preprocessing and model selection.
 ├── fine_tuning.ipynb: fine tuning the model and plot the result
 ├── learning_curves.ipynb: plot the learning curves for Rigde and logistic regression.
-├── CS_433_Project_1.pdf: a 2-pages report of the complete solution.
+├── CS_433_Project_2.pdf: a 4-pages report of the complete solution.
 ├── README.md
-└── resources
-    ├── train.csv
-    ├── test.csv
+└── Data
 ```
 
 
