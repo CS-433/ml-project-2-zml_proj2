@@ -81,14 +81,6 @@ The code structure of our project is shown as followed:
 │   ├── Analysis.ipynb: Exploratory data analysis
 │   ├── Author vector.ipynb: generate author vector
 │   └── data_loader.py: Read data from original json file, and inital save it into pickle that can be quickly read by python
-├── Interpretation.ipynb : interpretation with single words
-├── Interpretation_bigram.ipynb : interpretation with bigrams
-├── Interpretation_tsne.ipynb : t-sne grouping and Visualization result
-├── Models : trained model result for further analysis and interpretation
-│   ├── TSNEresult.csv
-│   ├── btm-inital-time10%.pth
-│   ├── btm-latent-time10%.pth
-│   └── btm-meta-time10%.pth
 ├── Word embedding.ipynb : create word embeddings and tweet embeddings 
 ├── data : this folder contains all the data we need and intermediate results
 ├── src
@@ -99,6 +91,14 @@ The code structure of our project is shown as followed:
 │   ├── models.py : model defination
 │   ├── run.py : run the experiments
 │   └── training.py : define training process
+├── Interpretation.ipynb : interpretation with single words
+├── Interpretation_bigram.ipynb : interpretation with bigrams
+├── Interpretation_tsne.ipynb : t-sne grouping and Visualization result
+├── Models : trained model result for further analysis and interpretation
+│   ├── TSNEresult.csv
+│   ├── btm-inital-time10%.pth
+│   ├── btm-latent-time10%.pth
+│   └── btm-meta-time10%.pth
 ├── CS_433_Project_2.pdf: a 4-pages report of the complete solution.
 └── README.md
 ```
