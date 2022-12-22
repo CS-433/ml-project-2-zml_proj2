@@ -27,7 +27,7 @@ To get all the data needed to run the code, please contact Aswin Suresh(aswin.su
 ```
 ├── src
 ├── data
-│   ├── authors_weights.pickle: the latent author vector that are used for **BTM-latent** model training and interpretation
+│   ├── authors_weights.pickle: the latent author vector that are used for BTM-latent model training and interpretation
 │   ├── bigram.pkl.bz2: all the bigrams and corresponding embeddings, for interpretation
 │   ├── dictionary.pkl.bz2: all the words and corresponding embeddings, for interpretation
 │   ├── embeddings_difference_meta.pickle: calculated difference of embeddings bweteen pairs, with meta data labels
