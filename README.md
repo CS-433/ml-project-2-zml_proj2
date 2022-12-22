@@ -1,4 +1,4 @@
-# ml-project-2-zml_proj2
+# Machine Learning Project 2: ML4Science
 # Mining Effective Words For Climate Change Communication
 
 
