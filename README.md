@@ -11,21 +11,14 @@ Yurui Zhu: @ruiarui
 
 Marko Lisicic: @mrfox99
 
-## Guideline
-
-To successfully run this project, modules including `numpy`, `matplotlib` and `csv` are required. And training and test 
-file should be placed into `resources` folder with name `train.csv` and `test.csv`
-
- One can find in our project report the full description of the project. In addition to the report, we provide several notebooks that go even further in data analyses (to which we refer to the conclusions made in our report) and plot visualization of feature distributions, outliers, correlation, etc. 
-
 ## Project Outline
 
- The purpose of this project is to implement basic Machine learning models
-  which include linear, ridge, and logistic regression, and then use them
-  to train and later predict whether a particle with given features 
-  is classified as a Higgs boson or not. As our input data has an abundance of missing values,
-  outliers, and features with heavy-tailed distributions, besides the aforementioned models, preprocessing and feature engineering play a crucial role in improving classification accuracies. 
-  The final result of this project yields 0.84 categorization accuracy and an F1 score of 0.757 `submission \#204396`.
+  In order to garner more effective attention on Twitter for the topic of climate change, our project aims to design and implement interpretable models to predict tweet engagement, and then to identify words, phrases, and visual appeals (e.g., image, video, hashtag, etc.) that could increase engagement by interpreting the learned parameters. The accuracy of our models was approximately 60\%, and we were able to identify patterns in the most engaging words and phrases, which we believe can be used as a strategy when composing new tweets that aim to draw attention to climate change.
+
+
+## Guideline
+
+
 
 ## Code Structure
 ```
