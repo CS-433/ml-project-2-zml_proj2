@@ -13,7 +13,7 @@ Marko Lisicic: @mrfox99
 
 ## Project Outline
 
-  In order to garner more effective attention on Twitter for the topic of climate change, our project aims to design and implement interpretable models to predict tweet engagement, and then to identify words, phrases, and visual appeals (e.g., image, video, hashtag, etc.) that could increase engagement by interpreting the learned parameters. 
+  In order to garner more effective attention on Twitter for the topic of climate change, our project aims to design and implement three interpretable models to predict the winning tweet that has better engagement inside each tweet pair, and then to identify words, phrases, and visual appeals (e.g., image, video, hashtag, etc.) that could increase engagement by interpreting the learned parameters.
   
 We implenment three model: **BTM-init** for training only tweet text embedding, **BTM-meta** for training tweet text embedding together with meta-data binary labels, and **BTM-latent**, where the latent author vectors are taking into account.
   
